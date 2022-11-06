@@ -63,7 +63,9 @@ def main():
                             print("Have the average of {0:.2f}".format(aver_num))
 
                         else:
-                            wait = input("Invalid input for C, press any key to retry: ")
+                            wait = input(
+                                "Invalid input for C, press any key to retry: "
+                            )
                             main()
 
                 else:
